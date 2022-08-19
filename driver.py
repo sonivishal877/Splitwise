@@ -22,7 +22,6 @@ user5 = userController.addUser('user5','ds')
 members = [user1,user2,user3,user4,user5]
 group1 = groupController.addGroup('group1','avengers',members)
 
-#print (group1.getMembers())
 paidBy = {'user1':200,'user2':100,'user3':50,'user4':50,'user5':100}
 contribution = {'user1':100,'user2':100,'user3':100,'user4':100,'user5':100}
 
